@@ -80,7 +80,10 @@ export const HeroCarouselComponent = () => {
         </Carousel>
 
         <div className="mx-auto flex justify-center py-[100px] ">
-          <a className="h-[55px] cursor-pointer flex items-center justify-center min-w-[230px] rounded-[100px] text-white bg-[#2a2570] hover:bg-[#8c62a2]">
+          <a
+            href="/#explore"
+            className="h-[55px] cursor-pointer flex items-center justify-center min-w-[230px] rounded-[100px] text-white bg-[#2a2570] hover:bg-[#8c62a2]"
+          >
             Register your interest
           </a>
         </div>
