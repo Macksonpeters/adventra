@@ -33,7 +33,9 @@ const Explore = () => {
             <form className="mt-4 text-lg" onSubmit={handleOnsubmit}>
               <div className="flex gap-5 flex-wrap justify-start text-gray-200">
                 <div className="text-start">
-                  <label htmlFor="email">Email</label>
+                  <label className="text-[15px] md:text-[17px]" htmlFor="email">
+                    Email
+                  </label>
                   <input
                     type="email"
                     name="email"
@@ -44,7 +46,12 @@ const Explore = () => {
                   />
                 </div>
                 <div className="text-start">
-                  <label htmlFor="program">Program</label>
+                  <label
+                    className="text-[15px] md:text-[17px]"
+                    htmlFor="program"
+                  >
+                    Program
+                  </label>
                   <input
                     type="text"
                     name="program"
